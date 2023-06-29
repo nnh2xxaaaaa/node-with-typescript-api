@@ -44,6 +44,7 @@ const colors: Array<string> = [
 const Data: {
   id: number;
   name: string;
+  email: string;
   address: string;
   company: string;
   location: {
@@ -58,6 +59,7 @@ user.users.map((user, index) => {
     Data.push({
       id: user.id,
       name: user.firstName,
+      email: user.email,
       address: user.address.city,
       company: user.company.title,
       location: {

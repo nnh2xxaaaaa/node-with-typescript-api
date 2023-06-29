@@ -21,3 +21,8 @@ fetchData(
   "https://dummyjson.com/users",
   "/Users/huyngo/Documents/node-express-typescript/node-express/src/api/dataUser1.json"
 );
+
+fetchData(
+  "https://dummyjson.com/users",
+  "/Users/huyngo/Documents/node-express-typescript/node-express/src/api/dataUser2.json"
+);
