@@ -1,6 +1,7 @@
 import axios from "axios";
 import fs from "fs";
 
+
 async function fetchData(api: string, nameFile: string) {
   try {
     const response = await axios.get(api);
@@ -17,12 +18,12 @@ async function fetchData(api: string, nameFile: string) {
   }
 }
 
-fetchData(
-  "https://dummyjson.com/users",
-  "/Users/huyngo/Documents/node-express-typescript/node-express/src/api/dataUser1.json"
-);
+// fetchData(
+//   "https://dummyjson.com/users",
+//   "/Users/huyngo/Documents/node-express-typescript/node-express/src/api/dataUser1.json"
+// );
 
 fetchData(
   "https://dummyjson.com/users",
-  "/Users/huyngo/Documents/node-express-typescript/node-express/src/api/dataUser2.json"
+  "node-with-typescript-api\src\api\api.json"
 );
