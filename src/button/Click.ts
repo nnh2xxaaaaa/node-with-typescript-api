@@ -14,4 +14,5 @@ const info_user = (): string => {
       `;
   }).join("");
 };
+console.log(typeof info_user);
 export default info_user;
