@@ -47,7 +47,14 @@ app.get("/api/user", (req: Request, res: Response) => {
 //create api
 
 app.get("/api/data", (req: Request, res: Response) => {
+  // console.log(req.query.id);
   res.render("home");
+});
+
+// create api used with query parameters
+
+app.get("/api/query", (req: Request, res: Response) => {
+  res.render("search");
 });
 // active api
 app.listen(port, () => {

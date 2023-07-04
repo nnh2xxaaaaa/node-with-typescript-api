@@ -1,7 +1,7 @@
 {
   "watch": ["src"],
-  "ext": ".ts",
+  "ext": ".ts .scss json",
   "ignore": ["src/**/*.spec.ts"],
-  "exec": "ts-node src/index.ts",
+  "exec": "ts-node  src/index.ts",
   "restartable": "rs"
 }

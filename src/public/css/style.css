@@ -1,53 +1,38 @@
 .text {
-  font-size: 12px;
-}
-
-.container {
-  background-color: red;
-  height: 200px;
-  width: 300px;
-  margin: 0 auto;
-  color: red;
-}
+  font-size: 12px; }
 
 h1 {
   color: red;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 #login {
-  height: 200px;
   width: 200px;
-  color: blue;
-  font-weight: bold;
-}
+  color: red;
+  font-weight: bold; }
 
 header {
-  background-color: #f2f2f2;
+  background-color: #817575;
   padding: 20px;
-  text-align: center;
-}
+  text-align: center; }
 
 h1 {
-  margin: 0;
-}
+  margin: 0; }
 
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 nav li {
   display: inline-block;
-  margin-right: 10px;
-}
+  margin-right: 10px; }
 
 nav li a {
   text-decoration: none;
-  color: #333;
-}
+  color: #333; }
 
 nav li a:hover {
-  color: #ff0000;
-}
+  color: #ff0000; }
+
+navbar navbar-expand-lg bg-body-tertiary {
+  background-color: black !important; }
